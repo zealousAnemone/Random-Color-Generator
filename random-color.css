@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+h1, h2, h3, h4 {
+  font-family: 'Anton', sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+#header{
+  margin: 2em 2em 4em 2em;
+}
+
+#main {
+  background-color: white;
+  margin: 2em 4em 2em 4em;
+  border-radius: 20px;
+  padding: 1em;
+  opacity: .9;
+}
+
+#hex-display {
+  border: 2px dashed black;
+  border-radius: 20px;
+  margin: 4em;
+  padding: 2em;
+}

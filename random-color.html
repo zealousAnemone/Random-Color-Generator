@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Color Funhouse and RGB to Hex Converter</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="random-color.css">
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="random-color.js"></script>
+
+</head>
+
+<body>
+	<div class="container-fluid">
+<div class = "row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+<div id="main">
+  <div id="header"><h1>Random Color Funhouse</h1>
+  <h3>and RGB to Hex Converter</h3>
+</div>
+  <div class="form-group form-inline">
+    <label for "red">Red</label>
+    <input type="text" size=4 class="form-control" id="red"></input>
+    <label for "green">Green</label>
+    <input type="text" size=4 class="form-control" id="green"></input>
+    <label for "blue">Blue</label>
+    <input type="text" size=4 class="form-control" id="blue"></input>
+    </div>
+<button id="convert" class="btn btn-default">Convert my Color</button>
+<button id="color-picker" class="btn btn-default">Get a random color</button>
+<div id="hex-display">
+  <h3>Hex code:<span id="hex-spot"></span></h3>
+</div>
+  <p>Created + coded by <a href="https://github.com/zealousAnemone" target="_blank">V.Wren</a></p>
+</div>
+
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+</div>
+</body>
+</html>
